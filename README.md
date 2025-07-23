@@ -5,5 +5,6 @@
 # Adama SIDIBE
 # Fatoumata BARRO
 # Khadim MBAYE
+#Thierno Abdoulaye Sall
 
 # Lien reop: https://github.com/khadimmbaye0/TECH-WEB
