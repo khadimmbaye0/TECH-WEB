@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 2rem;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+#commandeListe {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#commandeListe li {
+    padding: 1rem;
+}
+
+#totalCommande {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
